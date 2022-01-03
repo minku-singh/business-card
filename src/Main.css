@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #23252C;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.main{
+    background-color: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 38vw;
+    border-radius: 10px;
+    color: white;
+    min-width: 100px;
+}
+
+.about-interest{
+    padding: 1.5vw;
+}
+
+.email-linked button{
+    border : none;
+    background-color: blue;
+    margin: 1vh 1vw;
+    color: white;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    background-color: #161619;
+    border-radius: 10px;
+}
+
+i{
+    font-size: 2vw;
+    margin: 1vh 1vw;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
